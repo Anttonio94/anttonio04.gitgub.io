@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: blue;
+}
+
+header{
+    background-image: url(./grade.jpg);
+    display: flex;  
+}
+h1 {
+   border-right:2%; 
+    font-size: 20px;        
+}
+
+    
+.menu li{
+    display: inline-block;
+    
+  }
+.menu li a{
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+ .menu li a:hover{
+    color:rgb(176, 166, 235);
+
+ }
+.cabecalho{
+    color:rgb(255, 252, 252);
+    
+   
+}
+
+/*--servicos--*/
+
+
+.container{
+    padding:25px 9%;
+    
+}
+.container .container-imagem{
+    display: grid;
+    grid-template-columns: repeat(3.1fr);
+    gap: 20x;
+    padding: 10px;
+}
+.imagem{
+    width: auto;
+
+}
+
+.container .container-imagem .image{  
+    width: 50%;
+    border-radius: 5px;
+    border:2px solid #0000;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0,0, .1);
+    padding: 15px;
+}
+
+.container .container-imagem .image{
+    width: 100%;
+    
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius:5px
+}
+
+
+footer{
+    color:rgb(244, 244, 250);
+    margin-top: 100%;
+    background-color: rgb(8, 8, 8);
+    border-style: solid black;
+    
+}

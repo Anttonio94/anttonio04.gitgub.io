@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: blue;
+    
+
+}
+
+header{
+    background-image: url(./grade.jpg);
+    padding:8px;
+  
+    
+}
+h1 {
+    
+    border-right:2%; 
+    font-size: 30px;
+    font-size: 20px;    
+}
+
+    
+.menu li{
+    display: inline-block;
+    
+  }
+.menu li a{
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+ .menu li a:hover{
+    color:rgb(176, 166, 235);
+
+ }
+.cabecalho{
+    color:rgb(255, 252, 252);
+    
+   
+}
+
+/*--servicos--*/
+.descricao {
+    padding: 10px;
+    margin: 50px;
+     color:aliceblue;
+     background-color: black;
+     box-shadow: 0 5px 20px rgb(214, 228, 21);
+     border: solid 3px;
+     width: 230px;
+     border-radius: 10%;
+     
+    
+
+}
+.caixa {
+   
+   padding:10;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items:center;
+  
+   
+ 
+}
+.caixa{
+    
+}
+
+footer{
+    color:rgb(244, 244, 250);
+    margin-top: 100%;
+    background-color: rgb(8, 8, 8);
+    border-style: solid black;
+    
+}

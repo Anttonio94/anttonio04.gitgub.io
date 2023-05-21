@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding 0;
+}
+
+.container  {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap:6
+    40px
+    
+    
+}
+.amigos {
+    background-color: black;
+    border-style: solid;
+    border-color: blueviolet;
+}
+.amigos2 {
+    background-color: orange;
+    border-style: solid;
+    border-color: rgb(226, 43, 43);
+}
+.pracinha {
+    background-color: rgb(255, 0, 191) ;
+    border-style: solid;
+    border-color: rgb(226, 43, 58);
+}
+
+.amigos {
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: rgb(223, 217, 228);
+}
+.carros {
+    background-color: rgb(0, 183, 255);
+    border-style: solid;
+    border-color: blueviolet;
+}

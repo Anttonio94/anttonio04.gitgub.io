@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100px;
+    background-color: blue;
+    
+
+}
+
+header{
+    background-image: url(./grade.jpg);
+    display: flex;
+  
+    
+}
+h1 {
+    
+    border-right:2%; 
+    font-size: 30px;
+    color:rgb(255, 38, 0);
+    font-size: 20px;
+    
+     
+}
+
+    
+.menu li{
+    display: inline-block;
+    
+  }
+.menu li a{
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+ .menu li a:hover{
+    color:rgb(176, 166, 235);
+
+ }
+.cabecalho{
+    color:rgb(255, 252, 252);
+    
+   
+}
+
+/*--servicos--*/
+
+.caixa{
+   display: flex;
+   gap: 20px;
+}
+.caixa{
+    display: inline-block;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 2px;
+
+}
+
+.
+
+
+
+
+footer{
+    color:rgb(244, 244, 250);
+    margin-top: 100%;
+    background-color: rgb(8, 8, 8);
+    border-style: solid black;
+    
+}
